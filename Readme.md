@@ -20,7 +20,7 @@ This project is a simple calculator designed to look like the Windows 95 calcula
 
 4. Run index.html in your browser
 
-5. Test
+5. Test:
    `npx test` or `npm test`
 
 ## License
