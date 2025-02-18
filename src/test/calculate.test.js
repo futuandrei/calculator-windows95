@@ -1,4 +1,4 @@
-import { calculate } from "../src/script";
+import { calculate } from "../script";
 describe("Calculator Tests", () => {
     test("should return 5 when adding 2 + 3", () => {
         expect(calculate("2", "+", "3")).toBe(5);
