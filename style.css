@@ -41,7 +41,7 @@ h1 {
   width: 260px;
   height: 252px;
   border: 20px solid;
-  border-image-source: url("./assets/calculator-background.jpg");
+  border-image-source: url("../assets/calculator-background.jpg");
   border-image-slice: 30;
   border-image-repeat: stretch;
   background-color: #d6d3ce;
@@ -139,7 +139,7 @@ li:hover {
 .display {
   height: 25px;
   border: 10px solid;
-  border-image-source: url("./assets/calculator-background-display.jpg");
+  border-image-source: url("../assets/calculator-background-display.jpg");
   border-image-slice: 30;
   border-image-repeat: stretch;
   background-color: white;
@@ -176,7 +176,7 @@ li:hover {
   flex: 1; /* Makes buttons stretch evenly */
   max-width: 35px;
   border: 10px solid;
-  border-image-source: url("./assets/calculator-background.jpg");
+  border-image-source: url("../assets/calculator-background.jpg");
   border-image-slice: 30;
   border-image-repeat: stretch;
   background-color: #d6d3ce;
@@ -192,7 +192,7 @@ li:hover {
   flex: 1; /* Makes buttons stretch evenly */
   max-width: 35px;
   border: 10px solid;
-  border-image-source: url("./assets/button-hover.jpg");
+  border-image-source: url("../assets/button-hover.jpg");
   border-image-slice: 30;
   border-image-repeat: stretch;
   background-color: #e3e0da;
@@ -208,7 +208,7 @@ li:hover {
   flex: 1; /* Makes buttons stretch evenly */
   max-width: 35px;
   border: 10px solid;
-  border-image-source: url("./assets/button-pressed.jpg");
+  border-image-source: url("../assets/button-pressed.jpg");
   border-image-slice: 30;
   border-image-repeat: stretch;
   background-color: #bdbab5;
