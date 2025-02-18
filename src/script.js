@@ -1,7 +1,7 @@
 "use strict";
 const display = document.querySelector(".display");
 const buttons = document.querySelectorAll(".btn");
-const clickSound = new Audio("./sounds/mouse-click.mp3");
+const clickSound = new Audio("../sounds/mouse-click.mp3");
 let previousInput = "";
 let currentInput = "";
 let operator = "";
