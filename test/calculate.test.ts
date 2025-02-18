@@ -1,3 +1,5 @@
+// import { calculate } from "../src/script";
+import { describe, test, expect } from "@jest/globals";
 import { calculate } from "../src/script";
 
 describe("Calculator Tests", () => {

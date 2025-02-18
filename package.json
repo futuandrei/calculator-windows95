@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest",
     "build": "tsc",
-    "predeploy": "npm run build && cp index.html dist/index.html",
+    "predeploy": "npm run build && cp src/index.html dist/index.html && cp src/style.css dist/style.css",
     "deploy": "npm run build && gh-pages -d dist"
   },
   "keywords": [],
