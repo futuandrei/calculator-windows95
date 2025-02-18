@@ -4,6 +4,11 @@ node_modules/
 # Compiled files
 dist/
 
+# But track necessary build files
+!dist/index.html
+!dist/style.css
+!dist/script.js
+
 # Logs
 logs/
 *.log

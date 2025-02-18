@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://your-username.github.io/calculator-windows95",
+  "homepage": "https://futuandrei.github.io/calculator-windows95",
   "scripts": {
     "test": "jest",
     "build": "tsc",
+    "copy-assets": "cp -r src/index.html src/style.css src/assets src/sounds dist/",
     "predeploy": "npm run build && cp src/index.html dist/index.html && cp src/style.css dist/style.css",
     "deploy": "npm run build && gh-pages -d dist"
   },

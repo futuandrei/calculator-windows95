@@ -5,7 +5,7 @@ const buttons = document.querySelectorAll(
   ".btn"
 ) as NodeListOf<HTMLButtonElement>;
 
-const clickSound = new Audio("../sounds/mouse-click.mp3");
+const clickSound = new Audio("./sounds/mouse-click.mp3");
 
 let previousInput: string = "";
 let currentInput: string = "";
